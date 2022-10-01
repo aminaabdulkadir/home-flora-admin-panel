@@ -1,0 +1,154 @@
+.new{
+    display: flex;
+    width: 100%;
+
+    .newContainer{
+        flex: 6;
+
+        .top, .bottom{
+            box-shadow: 2px 4px 10px 1px rgba(157,186,175,0.69);
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(157,186,175,0.69);
+            padding: 10px;
+            margin: 20px;
+            display: flex;
+            position: relative;
+
+            .title{
+                font-size: 20px;
+                color: rgba(133, 182, 133, 0.562)
+            }
+
+            .left{
+                flex: 0.75;
+                text-align: center;
+                
+                img{
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    position: absolute;
+                    top: 80px;
+                    left: 200px;
+                }
+            }
+            .right{
+                flex: 3;
+                position: relative;
+
+                form{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 25px;
+                    justify-content: space-around;
+
+
+                    .formInput{
+                        width: 40%;
+                        display: flex;
+                        flex-direction: column;
+
+                        input{
+                            width: 50%;
+                            padding: 5px;
+                            border: none;
+                            border-bottom: 1px solid rgba(81, 87, 81, 0.384);
+                            margin-bottom: 15px;
+                        }
+                        textarea{
+                            border: none;
+                            border-bottom: 1px solid rgba(81, 87, 81, 0.384);
+                            margin-bottom: 15px;
+                        }
+
+
+                        ::placeholder{
+                        padding-top: 10px;
+                        }
+
+                        .imgLablel{
+                            margin-bottom: 16px;
+                            margin-top: 8px;
+                            display: flex;
+                            flex-direction: row;
+                        }
+
+                        label{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            .uploadIcon{
+                                width: 23px;
+                                cursor: pointer;
+
+                            }
+                        }
+
+                  select{
+                    width: 55%;
+
+                    
+                    
+
+                 }
+
+                        
+                     
+                      
+
+                    }
+                   
+                }
+                .sendProductButton{
+                    width: 149px;
+                    padding: 10px;
+                    border: none;
+                    cursor: pointer;
+                    color: green;
+                    font-size: 14px;
+                    font-weight: bold;
+                    background-color: rgba(166, 175, 169, 0.397);
+                    border-radius: 20px;
+                    margin-top: 10px;
+                    position: absolute;
+                    top: 580px;
+                    right: 100px;
+
+                    &:hover{
+                        color: honeydew;
+                        background-color: green;
+                     
+                    }
+                    
+                }
+
+                .sendUserButton{
+                    width: 149px;
+                    padding: 10px;
+                    border: none;
+                    cursor: pointer;
+                    color: green;
+                    font-size: 14px;
+                    font-weight: bold;
+                    background-color: rgba(166, 175, 169, 0.397);
+                    border-radius: 20px;
+                    margin-top: 10px;
+                    position: absolute;
+                    top: 350px;
+                    right: 100px;
+
+                    &:hover{
+                        color: honeydew;
+                        background-color: green;
+                     
+                    }
+
+
+                    
+                }
+
+            }
+        }
+    }
+}

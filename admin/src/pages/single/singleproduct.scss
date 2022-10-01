@@ -1,0 +1,167 @@
+.single{
+  display: flex;
+  width: 100%;
+
+  .singleContainer{
+      flex: 6;
+
+      .top{
+          padding: 20px;
+          display: flex;
+          gap: 20px;
+        
+
+          .left{
+              flex: 1 ;
+              box-shadow: 2px 4px 10px 1px rgba(157,186,175,0.69);
+              -webkit-box-shadow: 2px 4px 10px 1px rgba(157,186,175,0.69);
+              padding: 40px 20px 10px 50px;
+              position: relative;
+
+              .item{
+                  display: flex;
+                  gap: 20px;
+
+                  .itemImg{
+                      height: 100px;
+                      width: 100px;
+                      border-radius: 50%;
+                      object-fit: cover;
+                      margin-top: 17px;
+                      margin-right: 0px;
+
+                  }
+                  .details{
+                      margin-top: 10px;
+                    
+
+                    .itemTitle{
+                        margin-bottom: 15px;
+                        color: #486654c7;
+                    }
+
+                    .detailItem{
+                        font-size: 14px;
+                        margin-bottom: 15px;
+
+                        .itemKey{
+                            font-weight: bold;
+                            color: #777777;
+                            margin-right: 5px;
+                        
+
+                        }
+                        .itemValue{
+                            font-weight: 300;
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                  }
+
+              }
+          }
+
+          .right{
+              flex: 1.5 ;
+              
+          }
+      }
+      .bottom{
+        box-shadow: 2px 4px 10px 1px rgba(157,186,175,0.69);
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(157,186,175,0.69);
+          padding: 20px;
+          margin: 10px 20px;
+
+          .form{
+              display: flex;
+              justify-content: space-between;
+              margin: 20px;
+              
+
+              .formLeft{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  margin-left: 30px;
+
+                  label{
+                      margin-bottom: 10px;
+                      color:rgba(148, 201, 148, 0.918);
+                  }
+
+                  input, textarea{
+                      margin-bottom: 10px;
+                      width: 210%;
+                      border: none;
+                      border-bottom: 1px solid rgba(81, 87, 81, 0.384);
+                      padding: 5px;
+               }
+
+            
+
+                  select{
+                     color: rgba(148, 201, 148, 0.918);
+
+                  }
+
+              }
+
+              .formRight{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-around;
+                  margin-right: 30px;
+                 
+
+                .upload{
+                    display: flex;
+                    align-items: center;
+
+
+                    .uploadImg{
+                        width: 200px;
+                        height: 200px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        margin-right: 20px;
+
+
+                    }
+                    .uploadIcon{
+                        width: 60px;
+                        height: 26px;
+                        cursor: pointer;
+
+                    }
+                }
+
+                .updateButton{
+                    border: none;
+                    padding: 5px;
+                    margin-right: 24px;
+                    border-radius: 8px;
+                    background-color: green;
+                    color: white;
+                    font-weight: 600px;
+                    cursor: pointer;
+
+
+                }
+
+              }
+
+          }
+          
+      }
+  
+  .title{
+    font-size: 19px;
+    margin-bottom: 20px;
+    color: rgba(125, 161, 125, 0.671);
+  
+
+
+}
+ }
+}

@@ -1,0 +1,95 @@
+.widget{
+height: 100px;
+display: flex;
+justify-content: space-between;
+flex: 1;
+padding: 10px;
+box-shadow: 2px 4px 10px 1px rgba(157,186,175,0.69);
+-webkit-box-shadow: 2px 4px 10px 1px rgba(157,186,175,0.69);
+border-radius: 10px;
+
+.left, 
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title{
+        font-weight: bold;
+        font-size: 14px;
+        color: #777777;
+    }
+    .counter{
+        font-size: 28px;
+        font-weight: 300;
+    }
+    .link{
+        font-size: 12px;
+        color: #777777;
+        border-bottom: 1px solid gray;
+        width: max-content;
+        cursor: pointer;
+    } 
+    .percentage{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+    
+        .positive{
+            color: green;
+        }
+        .negative{
+            color: red;
+        }
+         
+    }   
+}
+.icon{
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+}
+
+@media screen and (max-width: 767px){
+    .widget{
+        height: 50px;
+        padding: 5px;
+
+        .left{
+            .title{
+                font-size: 10px;
+                margin-bottom: 5px;
+
+            }
+            .counter{
+                font-size: 15px;
+
+            }
+            .link{
+                font-size: 8px;
+
+            }
+        
+        }
+        .right{
+            .percentage{
+                font-size: 10px;
+                .negative{
+                    font-size: small;
+                }
+                .positive{
+                    font-size: small;
+                }
+
+            }
+            .icon{
+                font-size: 9px;
+                padding: 3px;
+
+            }
+        }
+    }
+   
+}

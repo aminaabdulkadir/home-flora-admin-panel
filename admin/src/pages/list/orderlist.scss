@@ -1,0 +1,24 @@
+.orders {
+    display: flex;
+    width: 100%;
+
+    .ordersListContainer{
+        flex: 6; 
+      
+           .ordersData{
+               padding: 30px;
+
+                .ordersListTitle{
+                    width: 99.6%;
+                    font-size: 24px;
+                    color: #a7aaa7ec;
+                    margin-bottom: 18px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+             }
+             
+         }
+
+    }
+}

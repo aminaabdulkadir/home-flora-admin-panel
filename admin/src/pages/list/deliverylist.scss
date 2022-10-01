@@ -1,0 +1,25 @@
+.delivery {
+    display: flex;
+    width: 100%;
+
+    .deliveryListContainer{
+        flex: 6; 
+      
+           .deliveryData{
+               padding: 30px;
+
+                .deliveryListTitle{
+                    width: 99.6%;
+                    font-size: 24px;
+                    color: #a7aaa7ec;
+                    margin-bottom: 18px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+             }
+             
+             
+         }
+
+    }
+}

@@ -1,0 +1,16 @@
+.messages{
+    display: flex;
+    width: 100%;
+
+    .messagesContainer{
+        flex: 6; 
+        position: relative;
+
+        .messagesBox{
+            font-size: 20px;
+            text-align: center;
+            margin-top: 40px;
+           
+        }
+    }
+}

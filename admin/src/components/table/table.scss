@@ -1,0 +1,57 @@
+.table{
+    position: relative;
+   
+  
+    .cellWrapper{
+        display: flex;
+        align-items: center;
+       
+       
+
+        .image{
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 380px;
+            border-radius: 50%;
+            margin-left: 20px;
+            object-fit: cover;
+        }
+        .productName{
+            margin-right: 10px;
+           
+        }
+    }
+    .status{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.approved{
+           color: green;
+           background-color: rgba(136, 247, 136, 0.158);
+        }
+        &.pending{
+            color: goldenrod;
+            background-color: rgba(241, 241, 193, 0.514);
+        }
+
+    }
+}
+
+@media screen and (max-width: 767px){
+    .table{
+        .tableCelll{
+            width: 50px;
+        }
+        .cellWrapper{
+            .image{
+                position: static;
+            }
+            .productName{
+                margin-right: 0px;
+            }
+
+        }
+    }
+
+}

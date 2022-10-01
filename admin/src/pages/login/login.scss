@@ -1,0 +1,63 @@
+
+        .formContainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            margin-top: 150px;
+            position: relative;
+            
+            
+         
+
+            .title{
+                margin-bottom: 30px;
+                position: absolute;
+                top: 0px;
+                font-size: 20px;
+                font-weight: 600;
+                color: rgba(75, 78, 75, 0.795)
+                
+            }
+
+        .form{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            
+            input{
+                width: 100%;
+                padding: 5px;
+                border: none;
+                border-bottom: 1px solid rgba(81, 87, 81, 0.384);
+            }
+
+            
+        }
+        
+        .logButton{
+            padding: 10;
+            width:60px;
+            height: 40px; 
+            position: absolute;
+            top: 200px;
+            border: none;
+            cursor: pointer;
+            color: green;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: rgba(171, 187, 171, 0.274);
+
+            &:hover{
+                width: 70px;
+                height: 50px;
+                font-size: 16px;
+            }
+          
+
+        }
+    }
+        
+
+    

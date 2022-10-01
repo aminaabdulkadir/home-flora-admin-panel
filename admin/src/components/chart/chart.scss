@@ -1,0 +1,22 @@
+.chart{
+    flex: 4;
+    box-shadow: 2px 4px 10px 1px rgba(157,186,175,0.69);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(157,186,175,0.69);
+    padding: 10px;
+    color: #8D918D;
+
+    .title{
+        margin-bottom: 20px;
+        
+    }
+    .chartGrid{
+     stroke: rgb(239, 233, 240);
+    }
+   
+}
+
+@media screen and (max-width: 767px){
+    .chart{
+        flex: 1;
+    }
+}

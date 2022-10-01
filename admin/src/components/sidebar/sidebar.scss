@@ -1,0 +1,119 @@
+.sidebar{
+    flex: 1;
+    border-right: 0.5px solid #e3e7c9;
+    min-height: 100vh;
+    background-color: white;
+    .top{
+        height: 50px;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+            color: green;
+        }
+    }
+    hr{
+        height: 0px;   
+        border: 0.5px solid #e3e7c9;
+    }
+    .center{
+        padding-left: 10px;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            .title{
+                font-size: 10px;
+                font-weight: bold;
+                color: #8D918D;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+            
+            li{
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color:  #ebf7eb;
+                }
+                .icon{
+                    font-size: 18px;
+                    color: green;
+                }
+                span{
+                    font-size: 13px;
+                    font-weight: 600;
+                    margin-left: 10px;
+                    color: #848B79;
+                    
+                }
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+
+        .colorOptions{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid rgba(128, 128, 128, 0);
+            cursor: pointer;
+            margin: 5px;
+
+            &:nth-child(1){
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+                background-color: #222;
+            }
+    
+           
+        }
+    }
+}
+
+@media screen and (max-width: 767px){
+    .sidebar{
+        .top{
+           
+            .logo{
+                font-size: 15px;
+            }
+
+        }
+        .center{
+            ul{
+                .title{
+                    font-size: 5px;
+                }
+                li{
+                    padding: 4px;
+                    .icon{
+                        font-size: 14px;
+                    }
+                    span{
+                        font-size: 11px;
+                    }
+                }
+            }
+
+        }
+        .bottom{
+            .colorOptions{
+                width: 14px;
+                height: 14px;
+            }
+
+        }
+    }
+}

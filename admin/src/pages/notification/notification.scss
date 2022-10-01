@@ -1,0 +1,16 @@
+.notifications{
+    display: flex;
+    width: 100%;
+
+    .notificationsContainer{
+        flex: 6; 
+        position: relative;
+
+        .notificationBox{
+            font-size: 20px;
+            text-align: center;
+            margin-top: 40px;
+           
+        }
+    }
+}
