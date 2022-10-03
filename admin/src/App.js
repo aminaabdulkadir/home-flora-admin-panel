@@ -30,7 +30,8 @@ function App() {
   return (
     <div className={ darkMode ? "app dark" : "app"}>
       <Routes>
-        <Route path="/" element={<Home/>} /> 
+        <Route path="/" element={admin
+        ? <Home/> : <Navigate to ="login"/>} />
         <Route path="login" element={admin
         ? <Navigate to="/"/>
         : <Login/>} />
