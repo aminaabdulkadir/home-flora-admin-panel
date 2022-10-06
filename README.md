@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# The Admin Panel of Home Flora E-Commerce.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### [Live Site](https://home-flora-admin-panel.herokuapp.com/)
 
-## Available Scripts
+![Admin Panel](https://i.postimg.cc/7LGBZ3Kx/admin-panel-home.png).
 
-In the project directory, you can run:
+## Introduction
+Home flora is an e-commerce application that sells variety collections of indoor/outdoor plants. 
 
-### `npm start`
+Building an e-commerce app is a long and interesting journey where you get the chance to apply all your software development knowledge and constantly enhance it by solving the so many issues that you will run into through the process.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I love plants :herb: and dream to have my own garden, so I built Home Flora.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- Products and users information are stored and managed with MongoDB Atlas.
+- The fronted part has been built with React library and React Styled Components.
+- State managment is done with Redux toolkit.
+- The Rest API has been built with Node.js, Express middleware, and MongoDB. 
+- Authentication and authorization are done with JSON Web Token (JWT).
+- The checkout process has been accomplished by integerating PayPal API.
 
-### `npm test`
+## Using the Application
+Browse the different categories and filter the products to show them according to the type, and size, and sort them by price and adding date. Select any product to visit its page and see its image and caring information. Add your chosen product(s) to the cart after creating an account. Checkout with your PayPal account, or add your credit card information. You will receive an email containing the order details and the tracking ID.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Authentication Information
+Username: test
 
-### `npm run build`
+Password: test
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Running the Admin Panel Locally
+1. Clone the project.
+2. install dependencies by running (npm install or yarn install) in the command line/ terminal.
+3. set the required environment variables: (PORT- MongoDB URL - JWT secret - paypal account credentials) 
+4. start the backend by running (npm run start) in the API directory.
+5. Start the fronted by running (npm run start) in the CLIENT directory.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dependencies
+- Babel
+- Webpack
+- React
+- React-DOM
+- Styled Component
+- Axios
+- Redux.js
+- React-router-dom
+- Express.js
+- Mongoose
+- Json Web Token
+- Crypto-js
+- Cors
+- Dotenv
+- React-paypal-js
+- Material-ui
+- React-icons
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
