@@ -23,13 +23,13 @@ For that reason, building such an important website is interesting and challengi
 - Images are stored in Firebase storage.
 - Products and user information are stored and managed with MongoDB Atlas.
 - The fronted part has been built with React library and Sass framework.
-- State management is done with the Redux toolkit.
+- State management is done with the Redux toolkit and Context API.
 - The Rest API has been built with Node.js, Express middleware, and MongoDB. 
 - Authentication and authorization are done with JSON Web Token (JWT).
 
 ## Using the Application
 On the home page, you can view the many components each displaying different statistical data, scroll down to see information about the latest transactions.
-Visit the users' page to add new users, view and edit the information of a specific user, and delete a user. Likewise, visit the products page to add a new product, view and edit the information of a specific product, and delete a product. To see the details of all orders, go to the orders page, and to the delivery page for delivery details.
+Visit the users' page to add new users, view and edit the information of a specific user, and delete a user. Likewise, visit the products page to add a new product, view and edit the information of a specific product, and delete a product. To see the details of all orders, go to the orders page, and to the delivery page for delivery details. To switch to dark mode, click on the dark button down the sidebar or the toggle button in the navbar.
 
 #### Authentication Information
 Username: test
