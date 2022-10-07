@@ -5,22 +5,31 @@
 ![Admin Panel](https://i.postimg.cc/RF7NhrwM/admin-panel-home-2.png)
 
 ## Introduction
-Home flora is an e-commerce application that sells variety collections of indoor/outdoor plants. 
+This is the admin panel of the e-commerce application Home Flora.
 
-Building an e-commerce app is a long and interesting journey where you get the chance to apply all your software development knowledge and constantly enhance it by solving the so many issues that you will run into through the process.
+Having a high-performance web admin panel tailored to specific business and user needs is crucial since it helps optimize the team's work, make it more efficient, and achieve tasks as fast as possible.
 
-I love plants :herb: and dream to have my own garden, so I built Home Flora.
+For that reason, building such an important website is interesting and challenging, so I built this project :trophy:
 
 ## Features
-- Products and users information are stored and managed with MongoDB Atlas.
-- The fronted part has been built with React library and React Styled Components.
-- State managment is done with Redux toolkit.
+- Widgets that contain statistical data about the customers, orders, earnings, and balance.
+- A chart that displays revenue month-over-month growth.
+- Users page to manage customers' profiles, add new ones, edit their stats, and remove them.
+- Single user page that displays editable user information and their spending over the last month.
+- Products page to manage products' stock availability, add special discounts, edit product information, and add new products. 
+- Single product page that displays editable product information and its selling performance over the last month.
+- Orders and Delivery pages.
+- Dark mode feature for more eyes rest and extended battery life.
+- Images are stored in Firebase storage.
+- Products and user information are stored and managed with MongoDB Atlas.
+- The fronted part has been built with React library and Sass framework.
+- State management is done with the Redux toolkit.
 - The Rest API has been built with Node.js, Express middleware, and MongoDB. 
 - Authentication and authorization are done with JSON Web Token (JWT).
-- The checkout process has been accomplished by integerating PayPal API.
 
 ## Using the Application
-Browse the different categories and filter the products to show them according to the type, and size, and sort them by price and adding date. Select any product to visit its page and see its image and caring information. Add your chosen product(s) to the cart after creating an account. Checkout with your PayPal account, or add your credit card information. You will receive an email containing the order details and the tracking ID.
+On the home page, you can view the many components each displaying different statistical data, scroll down to see information about the latest transactions.
+Visit the users' page to add new users, view and edit the information of a specific user, and delete a user. Likewise, visit the products page to add a new product, view and edit the information of a specific product, and delete a product. To see the details of all orders, go to the orders page, and to the delivery page for delivery details.
 
 #### Authentication Information
 Username: test
@@ -30,18 +39,20 @@ Password: test
 ## Running the Admin Panel Locally
 1. Clone the project.
 2. install dependencies by running (npm install or yarn install) in the command line/ terminal.
-3. set the required environment variables: (PORT- MongoDB URL - JWT secret - paypal account credentials) 
+3. set the required environment variables: (PORT- MongoDB URL - JWT secret) 
 4. start the backend by running (npm run start) in the API directory.
-5. Start the fronted by running (npm run start) in the CLIENT directory.
+5. Start the fronted by running (npm run start) in the admin directory.
 
 ## Dependencies
 - Babel
 - Webpack
 - React
 - React-DOM
-- Styled Component
+- Sass
 - Axios
 - Redux.js
+- Context API
+- Recharts
 - React-router-dom
 - Express.js
 - Mongoose
@@ -49,7 +60,5 @@ Password: test
 - Crypto-js
 - Cors
 - Dotenv
-- React-paypal-js
 - Material-ui
-- React-icons
-
+- Timeago.js
