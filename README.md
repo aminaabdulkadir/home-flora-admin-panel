@@ -2,7 +2,7 @@
 
 ### [Live Site](https://home-flora-admin-panel.herokuapp.com/)
 
-![Admin Panel](https://i.postimg.cc/7LGBZ3Kx/admin-panel-home.png)
+![Admin Panel](https://i.postimg.cc/pT6KQMpK/admin-panel-home.png)
 
 ## Introduction
 Home flora is an e-commerce application that sells variety collections of indoor/outdoor plants. 
