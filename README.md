@@ -1,6 +1,5 @@
 # The Admin Panel of Home Flora E-Commerce.
 
-### [Live Site](https://home-flora-admin-panel.herokuapp.com/)
 
 ![Admin Panel](https://i.postimg.cc/RF7NhrwM/admin-panel-home-2.png)
 
